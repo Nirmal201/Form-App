@@ -2,12 +2,14 @@ import React, { Component } from "react";
 
 const TableHeader = () => {
   return (
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Job</th>
-      </tr>
-    </thead>
+    <React.Fragment>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Job</th>
+        </tr>
+      </thead>
+    </React.Fragment>
   );
 };
 const TableBody = props => {
